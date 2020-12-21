@@ -13,4 +13,4 @@ c = c%.05
 leftover_pennies = c // 0.01
 
  
-print("The coins are", int(dollars_to_quarters) ,"quarters,", int(leftover_dimes) ,"dimes,", int(leftover_nickles),"nickles" ,"and" ,int(leftover_pennies), "pennies")
+print("The coins are", int(dollars_to_quarters) ,"quarters,", int(leftover_dimes) ,"dimes,", int(leftover_nickles),"nickeles" ,"and" ,int(leftover_pennies), "pennies")
