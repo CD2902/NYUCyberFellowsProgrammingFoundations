@@ -1,3 +1,5 @@
+import math
+
 print("Please enter the amount of money to convert:")
 
 inp_num_dollars = input("# of dollars: ")
@@ -13,4 +15,4 @@ c = c%.05
 leftover_pennies = c // 0.01
 
  
-print("The coins are", int(dollars_to_quarters) ,"quarters,", int(leftover_dimes) ,"dimes,", int(leftover_nickles),"nickels" ,"and" ,int(leftover_pennies), "pennies")
+print("The coins are", int(math.ceil(dollars_to_quarters)) ,"quarters,", int(math.ceil(leftover_dimes)) ,"dimes,", int(math.ceil(leftover_nickles)),"nickels" ,"and" ,int(math.ceil(leftover_pennies)), "pennies")
