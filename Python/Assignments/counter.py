@@ -2,7 +2,7 @@
 
 """
 
-print("Please enter the number of coins")
+# print("Please enter the number of coins")
 
 inp_quarters = input("# of quarters: ")
 inp_dimes =  input("# of dimes: ")
