@@ -4,7 +4,7 @@ print("Please enter the amount of money to convert:")
 
 inp_num_dollars = float("{:.0f}".format(float(input("# of dollars: "))))
 inp_num_cents = float("{:.2f}".format(float(input("# of cents: "))))
-print ("inp_num_dollars =", inp_num_dollars, "\n", "inp_num_cents",inp_num_cents,"\n")
+#print ("inp_num_dollars =", inp_num_dollars, "\n", "inp_num_cents",inp_num_cents,"\n")
 
 total_money = inp_num_dollars + inp_num_cents/100
 #print("total_money", total_money)
