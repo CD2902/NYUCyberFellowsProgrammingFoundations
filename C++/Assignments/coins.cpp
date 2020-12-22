@@ -12,7 +12,7 @@ int main()
 	cout << "# of cents: ";
 	cin >> inp_cents;
 	total = (inp_dollars + inp_cents/100)*100;
-	cout << "toatal" << total;
+//	cout << "toatal" << total;
 	total_quaters = total / 25;
 	c = total % 25;
 	total_dimes = c / 10;
