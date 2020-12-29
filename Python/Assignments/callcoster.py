@@ -30,7 +30,7 @@ if(inp_day == "Fri"):
   elif(inp_time < 800 or inp_time >1800):
     rate = .25
 if(inp_day == "Sat"):
-    rate = .14
+    rate = .15
 if(inp_day == "Sun"):
     rate = .15
 
