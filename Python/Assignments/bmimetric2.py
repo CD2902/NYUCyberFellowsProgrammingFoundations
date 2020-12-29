@@ -13,5 +13,5 @@ elif(24.9 < cal_bmi < 29.9):
 elif(29.9 < cal_bmi):
   status = "Obese"
 
-print("BMI is",round(cal_bmi,10),"Statu is",status)
+print("BMI is",round(cal_bmi,2),"Statu is",status)
 
