@@ -1,6 +1,6 @@
-inp_day = input("Enter the day the call started at: ")
-inp_time = int(input("Enter the time call started at (hhmm) : "))
-inp_duration = int(input("Enter the duration of the call (in minutes): "))
+inp_day = input()
+inp_time = int(input())
+inp_duration = int(input())
 
 rate = 0
 
