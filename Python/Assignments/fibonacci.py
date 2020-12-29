@@ -1,4 +1,4 @@
-inp_int = int(input("Please enter a positive integer greater 1: "))
+inp_int = int(input())
 
 count = 0
 
