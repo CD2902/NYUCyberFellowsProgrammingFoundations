@@ -11,7 +11,7 @@ int main()
 	}
 	else if(inp_grades >= 95 && inp_grades2 >= 95 )
 	{
-		cout << "Student Graduated with Honors:"<<endl;
+		cout << "Student Graduated with Honors:)"<<endl;
 	}
 	else
 	{
