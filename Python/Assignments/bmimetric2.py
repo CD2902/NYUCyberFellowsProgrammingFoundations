@@ -5,13 +5,13 @@ cal_bmi= inp_weight/(inp_height**2)
 status = ""
 
 if(cal_bmi < 18.5):
-  status = "Underweight"
+  status = "underweight"
 elif(18.5 < cal_bmi < 24.9):
-  status = "Normal"
+  status = "normal"
 elif(24.9 < cal_bmi < 29.9):
-  status = "Overweight"
+  status = "overweight"
 elif(29.9 < cal_bmi):
-  status = "Obese"
+  status = "obese"
 
-print("BMI is",round(cal_bmi,2),"Statu is",status)
+print("bmi is: ",round(cal_bmi,2),", status is ",status,sep='')
 
