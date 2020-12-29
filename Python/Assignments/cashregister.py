@@ -10,7 +10,7 @@ if(inp_ccard.capitalize() == 'Y'):
   if(inp_fitem <= inp_sitem):
     dprice =(inp_sitem + ( inp_fitem *(.50) )) *.9
   else:
-    dprice = (inp_fitme + ( inp_sitem *(.50) )) *.9
+    dprice = (inp_fitem + ( inp_sitem *(.50) )) *.9
 else:
   if(inp_fitem <= inp_sitem):
      dprice =inp_sitem + ( inp_fitem *(.50) )
