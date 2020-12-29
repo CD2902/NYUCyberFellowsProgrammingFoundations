@@ -9,7 +9,7 @@ int main()
 	{
 		cout << "Student Failed:("<<endl;
 	}
-	else if(inp_grades => 95 && inp_grades2 >= 95 )
+	else if(inp_grades >= 95 && inp_grades2 >= 95 )
 	{
 		cout << "Student Graduated with Honors"<<endl;
 	}
