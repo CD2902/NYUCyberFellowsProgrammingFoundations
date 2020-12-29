@@ -11,11 +11,11 @@ int main()
 	}
 	else if(inp_grades > 95 && inp_grades >95 )
 	{
-		cout << "Student Graudated with Honors"<<endl;
+		cout << "Student Graduated with Honors"<<endl;
 	}
 	else
 	{
-		cout << "Student Graudated!"<<endl;
+		cout << "Student Graduated!"<<endl;
 	}
 
 
