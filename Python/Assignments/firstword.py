@@ -1,3 +1,4 @@
 def firstword(s):
   splitdata= s.split(" ")
-  return splitdata
+  splitdata = splitdata[0]
+    return splitdata
