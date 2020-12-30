@@ -1,4 +1,4 @@
-def isleapyear(mybirthyear):
+def isleapyear(leapYear):
   if(leapYear % 400 == 0):
     #print("Year {0} was a leap year".format(mybirthyear))
     return True
