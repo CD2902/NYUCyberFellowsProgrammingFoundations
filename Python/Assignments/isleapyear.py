@@ -1,22 +1,20 @@
-def isleapyear(leapYear):
+def isleapyear():
+  leapYear = int(input())
   if(leapYear % 400 == 0):
-    return True
-  if(leapYear % 100  == 0):
-    return False
-  if(leapYear % 4 == 0):
-    return True
-  return False
-
-
-def printans():
-  mybirthyear = int(input())
-  if isleapyear(mybirthyear):
-    print("Year {0} was a leap year".format(mybirthyear))
+    print("Year {0} was a leap year".format(leapYear))
+  elif(leapYear % 100  == 0):
+    print("Year {0} was not a leap year".format(leapYear))
+  elif(leapYear % 4 == 0):
+    print("Year {0} was a leap year".format(leapYear))
+  else:
+    print("Year {0} was not a leap year".format(leapYear))
 
 
 
 
-printans()
+
+
+isleapyear()
 
 
 
