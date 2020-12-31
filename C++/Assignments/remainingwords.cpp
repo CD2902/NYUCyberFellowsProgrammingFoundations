@@ -5,8 +5,8 @@ using namespace std;
 string  remainingwords(string s)
 {
 
-
-string firstword = s.substr(s.find(" "));
+int skipword = s.find(" ")
+string firstword = s.substr(skipword);
 
 
 return firstword; 
