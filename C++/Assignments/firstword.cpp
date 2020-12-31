@@ -2,7 +2,7 @@
 # include <string.h>
 using namespace std; 
 
-string  firstword(stromg s)
+string  firstword(string s)
 {
 
 
