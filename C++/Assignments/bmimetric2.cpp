@@ -13,7 +13,7 @@ int main()
   cal_bmi = inp_weight/(inp_height*inp_height);
 
   if(cal_bmi < 18.5)
-    cout << "BMI is: " <<setprecision(4)<< cal_bmi <<", status is underwight"<<endl;
+    cout << "BMI is: " <<setprecision(4)<< cal_bmi <<", status is underweight"<<endl;
   else if(18.4 < cal_bmi < 24.10 )
    cout << "BMI is: " <<setprecision(4) <<cal_bmi <<", status is Normal"<<endl;
   else if(25.1 < cal_bmi < 30.0 ) 
