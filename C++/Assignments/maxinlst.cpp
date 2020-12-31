@@ -13,11 +13,11 @@ for (int i =0; i <  size; i++)
     if (lst[i] > lst[j])
 	
      {
-       max = lst[i]
+       max = lst[i];
      }
 
   }
-  return max
+  return max;
 }
 
 
