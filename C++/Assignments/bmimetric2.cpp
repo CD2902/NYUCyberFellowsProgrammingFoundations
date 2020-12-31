@@ -14,7 +14,7 @@ int main()
 
   if(cal_bmi < 18.5)
     cout << "BMI is: " <<setprecision(4)<< cal_bmi <<", status is underweight"<<endl;
-  else if(18.4 < cal_bmi < 24.10 )
+  else if(18.4 < cal_bmi && cal_bmi < 24.10 )
    cout << "BMI is: " <<setprecision(4) <<cal_bmi <<", status is Normal"<<endl;
   else if(25.1 < cal_bmi < 30.0 ) 
   cout << "BMI is: "<<setprecision(4) <<cal_bmi <<", status is Overweight"<<endl;
