@@ -2,7 +2,7 @@
 # include <algorithm>
 using namespace std;
 
-int maxinlst(int lst, int size)
+int maxinlst(int* lst, int size)
 {
 int max;
 for (int i =0; i <  size; i++)
@@ -20,4 +20,13 @@ for (int i =0; i <  size; i++)
   return max;
 }
 
+/*
+int main()
+{
 
+int list[] = {342,2,41,45};
+
+cout <<  maxinlst(list,4) ;
+
+}
+*/
