@@ -6,6 +6,7 @@ int maxinlst(int* lst, int size)
 {
 int max;
 for (int i =0; i <  size; i++)
+{
   if(lst[i] < 0)
   {
     lst[i] = lst[i] * -1;
@@ -20,5 +21,20 @@ for (int i =0; i <  size; i++)
      }
 
   }
+}
   return max;
+}
+
+/*
+int main()
+{
+
+int listp[] = {1 ,2,3,-5};
+
+int x = maxinlst(listp, 4);
+
+*/
+
+
+
 }
