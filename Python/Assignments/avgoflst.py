@@ -1,3 +1,3 @@
 def avg_val(lst):
-  return mean(lst)
+  return sum(lst)/len(lst)
 
