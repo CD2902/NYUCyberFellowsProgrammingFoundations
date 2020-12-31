@@ -5,7 +5,7 @@ using namespace std;
 int main ()
 {
 char userCh;
-cout << "Please enter a character:"<<endl;
+//cout << "Please enter a character:"<<endl;
 cin >> userCh;
 
 if(userCh >= 'a' && userCh <= 'z')
