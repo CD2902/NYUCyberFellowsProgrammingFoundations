@@ -46,7 +46,7 @@ else
 
 total = dprice + (dprice * inp_trate) ;
 
-cout << "Base price ="<<fixed << setprecision(2)<<bprice <<"\nPrice after discounts = "<< fixed << setprecision(2) << dprice << "\nTotal price = "<< total<<endl;
+cout << "Base price = "<<fixed << setprecision(2)<<bprice <<"\nPrice after discounts = "<< fixed << setprecision(2) << dprice << "\nTotal price = "<< total<<endl;
 
 
 
