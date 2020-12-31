@@ -2,7 +2,7 @@
 # include <algorithm>
 using namespace std;
 
-int maxinlst(int* lst, int size)
+int maxabsinlst(int* lst, int size)
 {
 int max;
 for (int i =0; i <  size; i++)
