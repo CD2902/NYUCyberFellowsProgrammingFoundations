@@ -9,13 +9,13 @@ int main()
 float inp_fitem, inp_sitem, inp_trate, bprice,  total, dprice;
 char inp_ccard;
 
-cout << "Enter  price of the first iteme: " <<endl;
+//cout << "Enter  price of the first iteme: " <<endl;
 cin >> inp_fitem; 
-cout << "Enter price of the second item: "<<endl;
+//cout << "Enter price of the second item: "<<endl;
 cin >> inp_sitem;
-cout << "Does customer have a club card? (Y/N): "<<endl;
+//cout << "Does customer have a club card? (Y/N): "<<endl;
 cin >> inp_ccard;
-cout << "Enter tax rate, e.g. 5.5 for 5.5% tax: "<<endl;
+//cout << "Enter tax rate, e.g. 5.5 for 5.5% tax: "<<endl;
 cin >> inp_trate ;
 inp_trate = inp_trate/100;
 bprice = inp_fitem + inp_sitem;
