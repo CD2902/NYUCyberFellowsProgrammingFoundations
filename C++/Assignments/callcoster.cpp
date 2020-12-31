@@ -59,7 +59,7 @@ if(inp_day == "Sun")
 
 total = rate * inp_duration;
 
-cout << "This call with cost $ "<< fixed << setprecision(2)<< total<< endl;
+cout << "This call will cost $"<< fixed << setprecision(2)<< total<< endl;
 
 
 return 0;
