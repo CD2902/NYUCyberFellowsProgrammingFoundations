@@ -2,25 +2,13 @@
 # include <string.h>
 using namespace std; 
 
-int main()
+string  firstword(stromg s)
 {
 
-string word;
-cin >> word;
+
+string firstword = s.substr(0, s.find(" "));
 
 
-string firstword = word.substr(0, word.find(" "));
-cout <<firstword<<endl;
-
-
-
-
-
-
-
-
-
-
-return 0; 
+return firstword; 
 }
 
